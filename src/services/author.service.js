@@ -29,9 +29,9 @@ const createAuthor = async (data) => {
  }
  return prisma.author.create({
  data: {
- name,
- nationality,
- birthYear,
+    name,
+    nationality,
+    birthYear,
  },
  });
 };
